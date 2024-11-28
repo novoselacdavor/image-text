@@ -1,0 +1,55 @@
+.hide-on-mobile {
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
+}
+
+.hide-on-desktop {
+  @media screen and (min-width: 769px) {
+    display: none !important;
+  }
+}
+
+.mt-1 {
+  margin-top: 1.6rem;
+}
+
+.mt-2 {
+  margin-top: 2.4rem;
+}
+
+.mb-1 {
+  margin-bottom: 1.6rem;
+}
+
+.mb-2 {
+  margin-bottom: 2.4rem;
+}
+
+.px-1 {
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+}
+
+.px-md-1 {
+  @media screen and (min-width: 769px) {
+    padding-right: 10.4rem;
+    padding-left: 10.4rem;
+  }
+}
+
+.py-1 {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.py-md-1 {
+  @media screen and (min-width: 769px) {
+    padding-top: 11.95rem;
+    padding-bottom: 11.95rem;
+  }
+}
+
+.bg-color-pink {
+  background-color: $colorPink;
+}
